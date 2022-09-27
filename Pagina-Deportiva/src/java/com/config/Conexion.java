@@ -16,7 +16,7 @@ public class Conexion {
     private static Connection con=null;
     private static final String url = "jdbc:mysql://localhost:3306/athletes";
     private static final String user = "root"; 
-    private static final String password = ""; 
+    private static final String password = "r00t4381awp"; 
     public static Connection Conectar(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
