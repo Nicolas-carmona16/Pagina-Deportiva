@@ -16,7 +16,7 @@ import java.util.List;
  *
  * @author PC
  */
-public class PersonaDAO implements InterfazpersonaDAO{
+public class PersonaDAO implements InterfacePersonaDAO{
 
     @Override
     public List<Persona> getPersonas() {

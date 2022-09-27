@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author PC
  */
-public interface InterfazpersonaDAO {
+public interface InterfacePersonaDAO {
     public List<Persona>getPersonas();
     public Persona getId(int id);
     public int add(Persona p);
