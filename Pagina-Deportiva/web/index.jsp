@@ -173,7 +173,7 @@
                 <th>Last names</th>
                 <th>Club/Distance</th>
                 <th>National team/Time</th>
-                <th>acciones</th>
+                <th>actions</th>
             </tr>
             <c:forEach var="persona" items="${Personas}">
             <tr>
@@ -1338,7 +1338,7 @@
               <div class="col-md-8 col-md-offset-2">
                 
                 <!-- form fields -->
-                <form action="assets/php/contact.php.htm" method="post" name="contactform" id="contactform" class="animated out" data-animation="fadeInUp" data-delay="0">
+                <form action="https://formspree.io/f/xnqrvkpo" method="post" name="contactform" id="contactform" class="animated out" data-animation="fadeInUp" data-delay="0"> <!--action="assets/php/contact.php.htm"-->
 
                   <fieldset>
                     <div class="form-group">
@@ -1379,13 +1379,13 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
-              <a href="#"><i class="pe-7s-map-marker"></i>myaddress</a>
+              <a href="#"><i class="pe-7s-map-marker"></i>localhost</a>
             </div> <!-- End col-sm-4 -->
             <div class="col-sm-4">
             <a href="tel:+123000456"><i class="pe-7s-phone"></i>+57 **********</a>
             </div>
              <div class="col-sm-4">
-              <a href="mailto:hello@hotmail.com"><i class="pe-7s-mail"></i>myemail@gmail.com</a>
+              <a href="mailto:hello@hotmail.com"><i class="pe-7s-mail"></i>sportpage99@gmail.com</a>
              </div>
           </div> <!-- End row -->
         </div> <!-- End container -->
